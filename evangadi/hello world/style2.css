@@ -1,0 +1,18 @@
+.tetclass {
+    color: blue;
+    font-size: 24px;
+    /* transition: color 3s none; */
+}
+
+.tetclass:hover {
+    color: red;
+    /* scale: 0.2; */
+  
+}
+body {
+    box-sizing: border-box;
+    /* background-image: url('https://images.unsplash.com/photo-1542500186-6edb30855637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: rgb(0, 255, 115);
+}
