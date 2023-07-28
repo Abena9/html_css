@@ -37,6 +37,7 @@ form{
     background: url("https://img.freepik.com/free-vector/woman-work-office-sitting-desk-with-computer_107791-2522.jpg?size=626&ext=jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* width: fit-content; */  
 }
 .row{
     display: flex;
@@ -47,8 +48,7 @@ form{
     justify-content: center;
 }
 #computer{
-
-    /* height: max-content;
+    height: max-content;
     width: max-content;
-    size:cover; */
+    size:cover;
 }

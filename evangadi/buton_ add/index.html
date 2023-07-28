@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="number">0</span>
+    <button onclick="func_name()">add</button>
+<script>
+
+    function func_name(){
+        const s =document.getElementById("number")
+        console.log("hello world",s)
+        s.innerHTML = eval(s.innerHTML   +"+1" )
+    }
+    func_name()
+</script>
+</body>
+</html>
